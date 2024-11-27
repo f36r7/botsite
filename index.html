@@ -1,0 +1,2496 @@
+
+<style>
+  .wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }    
+  :root, .site {
+    --color-background: #27292B;
+  }
+  .bodey {
+    background: #27292B;
+  }
+  .site-header {
+    margin-bottom: 0;
+    max-height: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    display: none;
+    pointer-events: none;
+  }
+  .site-logo {
+    font-size: 0%;
+    color: #E7E7E8;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .document_content {
+    max-width: 100%;
+    min-height: 0;
+  }
+  .document_block {
+    max-width: 100%;
+    height: 100vh;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+  .document_meta {
+    margin-top: 0 !important;
+  }
+  .site-navigation {
+    pointer-events: none;
+    user-select: none;
+    max-height: 0;
+  }
+  .site-navigation_item {
+    opacity: 0;
+  }
+  .site-footer {
+    max-height: 0px;
+    opacity: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .h1 {
+    max-height: 0px;
+  }
+  .mt-16 {
+    margin-top: 0 !important;
+  }
+  .mb-24 {
+    margin-bottom: 0 !important;
+  }
+  .document {
+    margin-top: 0;
+  }
+  .mt-96 {
+    margin-top: 0 !important;
+  }
+  .mt-64 {
+    margin-top: 0 !important;
+  }
+  .site-collection_meta {
+    max-height: 0px;
+    opacity: 0;
+  }
+  .image {
+    cursor: pointer;
+  }
+  .games-grid { 
+    display: grid;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    color: pink;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    font: bold;
+    text-align: center;
+  } 
+  a {
+    text-decoration: none;
+  }
+  .grid-element {
+    display: grid;
+    color: pink;
+    background-color: #333638;
+    min-height: 300px;
+    max-height: 300px;
+    grid-template-rows: 70% 15% 15%;
+    border-radius: 25px;
+    gap: 1px;
+  }
+  .game-cover {
+    min-height: auto;
+    border-radius: 25px 25px 0 0;
+  }
+  .game-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;	
+    border-radius: 25px 25px 0 0;
+  }
+  .play-button {
+    color: white;
+    background-color: rgb(77, 153, 77);
+    min-height: 100%;
+  }
+  .play-button:hover {
+    background-color: rgb(104, 189, 104);
+  }
+  .play-bottom-button {
+    border-radius:  0 0 18px 18px;
+  }
+  .main-logo {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 200%;
+    display: flex; 
+    justify-content: center;
+  }
+  .document_content p {
+    margin-top: 0;
+  }
+  @media (max-width: 1800px) {
+    .games-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;        
+      margin-left: 10vh;
+      margin-right: 10vh;
+    }
+  }
+  @media (max-width: 1200px) {
+    .games-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin-left: 10vh;
+      margin-right: 10vh;
+    }
+  }    
+  @media (max-width: 900px) {
+    .games-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }    
+  @media (max-width: 600px) {
+    .grid-element {
+      min-height: auto;
+    }
+    .games-grid {
+      grid-template-columns: 1fr 1fr;
+      margin-left: 30px;
+      margin-right: 30px;
+      font-size: 17px;
+    }
+    .game-cover img {
+      height: 100%;
+    }
+    .game-cover {
+      min-height: 170px;
+    }
+    .play-button {
+      padding-top: 2px;
+    }
+  }
+  @media (max-width: 375px) {
+    .games-grid { 
+      font-size: 17px;
+    }
+    .play-button {
+      padding-top: 2px;
+    }
+  }
+</style>
+
+<script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('img').forEach(img => {
+          img.addEventListener('click', (e) => {
+            e.stopImmediatePropagation(); // Останавливает обработку события полностью
+            
+          });
+        });
+      });
+</script>
+<body class="bodey">
+<div class="main-logo" style="font-size:10px; margin-top: 20px; margin-bottom:-40px; color:lightblue;">промокод:</div>
+<div class="main-logo"><p style="color:gold; font-weight:bold;">Casino</p><p style="color:red; text-decoration: underline;">GigaBot</p></div>
+
+<div class="games-grid"> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img alt="game" src="https://assets.aboutslots.com/uploads/assets/valley_of_the_dead_yggdrasil_casino_slot_banner_e3d77420a3.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10510&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/10/Game-thumbnails_720x300px_goldentank.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10595&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/09/Game-thumbnails_720x300px-4-fantastic-vikings.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10608&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/09/Game-thumbnails_720x300px_gladiatorvsCaesar.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10511&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/08/Game-thumbnails_720x300px-aphrodite.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10509&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/07/Game-thumbnails_720x300px_jelly.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10517&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/05/Game-thumbnails_720x300px-777volt.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10570&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/04/Game-thumbnails_720x300px-vikings.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10516&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/03/Game-thumbnails_720x300px-MonkeysGoBananas.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10514&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/02/Game-thumbnails_720x300px-gold-frontier.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10515&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/01/Game-thumbnails_720x300px-RagnaRavens.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10481&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/01/Game-thumbnails_720x300px-RainbowRyan2.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10506&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/10/Game-thumbnails_720x300px_NiceCatch2.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10477&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/10/Game-thumbnails_720x300px-RockstarSanta-new.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div> 
+  
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/10/Game-thumbnails_720x300px_goldentank.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/09/Game-thumbnails_720x300px-valley-of-the-dead.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/09/Game-thumbnails_720x300px-4-fantastic-vikings.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/09/Game-thumbnails_720x300px_gladiatorvsCaesar.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/08/Game-thumbnails_720x300px-aphrodite.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/07/Game-thumbnails_720x300px_jelly.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/05/Game-thumbnails_720x300px-777volt.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/04/Game-thumbnails_720x300px-vikings.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/03/Game-thumbnails_720x300px-MonkeysGoBananas.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/02/Game-thumbnails_720x300px-gold-frontier.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/01/Game-thumbnails_720x300px-RagnaRavens.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2024/01/Game-thumbnails_720x300px-RainbowRyan2.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/10/Game-thumbnails_720x300px_NiceCatch2.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/10/Game-thumbnails_720x300px-RockstarSanta-new.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/10/Game-thumbnails_720x300px-defenders-c.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/08/Game-thumbnails_720x300px-WildStackFrenzy.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/11/Game-thumbnails_720x300px-VampireRiches.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/08/Game-thumbnails_720x300px-fatz_sdiner.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/07/Game-thumbnails_720x300px-gigagong.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/05/EnchantedWaters-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/06/Game-thumbnails_720x300px-shakerclub.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/05/notre-dame-new-thumbnail.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/05/Game-thumbnails_720x300px-BadgerMiners.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/04/Game-thumbnails_720x300px_Candyfinity.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/04/Ragnawolves-Game-thumbnails_720x300px-1.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/04/nice-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/03/Game-thumbnails_720x300px_DevourtheWeak.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/03/Game-thumbnails_720x300px-Giganimals.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/02/eforce_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/01/Winterberries2-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2023/01/Elysian-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/12/NeonVillains-Game-thumbnails_720x300px.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/11/Christmas-Plaza-thumbnail.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/10/Cannonade-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/10/Firekick-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/09/Games-list-thumbnail.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/09/COTU-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/08/Calavera-Crush-new-thumbnail.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/08/Of-Sabers-and-Monsters-new-thumbnail.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/07/YGG_MEXOMAX_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/05/YGG_Boiling-Pots_Game-thumbnails_720x300px_2.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/02/VikingsGoTo-Valhalla-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/01/YGG_PushyCats_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2022/01/cazino_zeppelin_reloaded_Yggdrasil-UpcomingGame-Logo-Template-1920x510px-1280x510.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/11/4573AA44-4F03-4139-B434-FE6D264F1DA4.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/09/golden_fish_tank_2_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/09/8EFCD006-FFFD-46B4-AA87-27DDE1BB3068-800x720.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/07/raptor_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/06/golden_gorgon_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/06/Suncatcher-Thumbnail-800x720.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/04/gator_gold_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/03/Atlantean_Gigarise_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/02/easter_islands_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2021/01/reel_desire_Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/12/FQJ-Game-thumbnails_720x300px-1.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/11/pirates-2-Game-thumbnails_720x300px.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/10/Website-game-thumbnails-COTE-720x300px.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/10/Yggdrasil-Gaming-Slot-Game-Thumbnail-Syncronite.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/10/Yggdrasil-Gaming-Slot-Game-Thumbnail-Hades.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/10/Yggdrasil-Gaming-Slot-Game-Thumbnail-Hyperburst.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/09/Thumbnail-ValleyOfTheGods2.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/07/Yggdrasil-Thumbnail-JackpotExpress.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/07/Thumbnail-FootballGlory.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/06/Thumbnail-VaultOfFortune.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/05/Thumbnail-LuckyNeko.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/05/Thumbnail-Avatars.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/05/Thumbnail-LightningJoker.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/05/Thumbnail-ArthursFortune.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/04/Thumbnail-BloodMoon.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/04/Thumbnail-NeonRush.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/04/Thumbnail-WilhelmTell.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/03/Game-thumbnails_720x300px-Multifly.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/03/Thumbnail-Pirates.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/02/Thumbnail-RoyalFamily.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/02/Thumbnail-BrazilBomba.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/02/Thumbnail-TimeTravelTigers.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2020/01/Thumbnail-TempleStack.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/11/Thumbnail-AldosJourney.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/10/Thumbnail-AgeofAsgard.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/09/Yggdrasil-Thumbnail-GoldenChipRoulette.png">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/09/Thumbnail-SaharaNights.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/08/Thumbnail-YokozunaClash.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/07/Thumbnail-OneArmedBandit.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/06/Thumbnail-WildRoboFactory.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/05/Thumbnail-JackpotRaiders.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/03/Thumbnail-DrFortuno.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/02/Thumbnail-DwarfMine.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/02/Thumbnail-ChampionsOfRome.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2019/01/Thumbnail-CazinoCosmos.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/12/Thumbnail-TrollsBridge.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/11/Thumbnail-BaronSamedi.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/11/Thumbnail-NitroCircus.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/10/Thumbnail-DarkVortex.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/09/Thumbnail-WolfHunters.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/08/Thumbnail-HanzosDojo.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/07/Thumbnail-PenguinCity.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/06/Thumbnail-TutsTwister.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/04/Thumbnail-VikingsGoToHell.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/03/Thumbnail-LuchaManiacs.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/03/Thumbnail-EasterIsland.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/02/Thumbnail-GemRocks.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2018/01/Thumbnail-OzwinsJackpots.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/11/Thumbnail-OrientExpress.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/10/Thumbnail-PumpkinSmash.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/09/Thumbnail-JungleBooks.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/08/Thumbnail-ValleyoftheGods.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/07/Thumbnail-RainbowRyan.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/06/Thumbnail-SpinaColada.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/05/Thumbnail-SunnyShores.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/02/Thumbnail-BeautyAndTheBeast.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2017/01/Thumbnail-Alchemydes.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/11/Thumbnail-VikingsGoBerzerk.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/10/Thumbnail-Nirvana.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/10/Thumbnail-EmpireFortune.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/09/Thumbnail-DoubleDragons.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/08/Thumbnail-BigBlox.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/06/Thumbnail-Bicicleta.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/05/Thumbnail-LegendoftheGoldenMonkey.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/03/Thumbnail-Seasons.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/03/Thumbnail-Jokerizer.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/02/Thumbnail-GoldenFishtank.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/01/Thumbnail-Winterberries.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2016/01/Thumbnail-Incinerator.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2015/10/Thumbnail-CazinoZeppelin.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2015/09/Thumbnail-HolmesAndTheStolenStones.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2015/08/Thumbnail-VikingsGoWild.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2015/06/Thumbnail-Chibeasties.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2015/04/Thumbnail-JokerMillions.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2015/01/Thumbnail-TheDarkJokerRizes.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+  <div class="grid-element">
+    <div class="game-cover">
+    <img src="https://yggdrasilgaming.com/w/files/2014/05/Thumbnail-Frutoids.jpg">
+    </div>
+    <a href="https://staticdemo.yggdrasilgaming.com/init/launchClient.html?gameid=10489&lang=en&currency=EUR&org=Demo&key=&fullscreen=yes">
+      <div class="play-button">
+      Играть
+      </div>
+    </a>
+    <a href="https://1warlo.top/casino/list?open=register&p=oq9w">
+      <div class="play-button play-bottom-button">
+      Полная версия
+      </div>
+    </a>
+  </div>
+
+</div> 
+</body>
