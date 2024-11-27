@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   .wrapper {
     padding-left: 0;
@@ -87,6 +87,8 @@
     gap: 10px;
     font-family: 'Roboto', sans-serif;
     font: bold;
+    font-weight: 450;
+    font-size: 120%;
     text-align: center;
   } 
   a {
@@ -113,9 +115,12 @@
     border-radius: 25px 25px 0 0;
   }
   .play-button {
+    display: flex;
     color: white;
     background-color: rgb(77, 153, 77);
     min-height: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .play-button:hover {
     background-color: rgb(104, 189, 104);
@@ -165,6 +170,7 @@
       margin-left: 30px;
       margin-right: 30px;
       font-size: 17px;
+      font-weight: 400;
     }
     .game-cover img {
       height: 100%;
@@ -172,16 +178,10 @@
     .game-cover {
       min-height: 170px;
     }
-    .play-button {
-      padding-top: 2px;
-    }
   }
   @media (max-width: 375px) {
     .games-grid { 
       font-size: 17px;
-    }
-    .play-button {
-      padding-top: 2px;
     }
   }
 </style>
